@@ -20,4 +20,6 @@
 
 [2]https://www.taipower.com.tw/d006/loadGraph/loadGraph/load_reserve_.html
 
+[3]https://opendata.cwb.gov.tw/dataset/climate/C-B0024-002
+
 
