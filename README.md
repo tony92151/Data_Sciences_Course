@@ -2,8 +2,11 @@
 
 # HW1
 
-使用 jupyter notebook，需要GPU，可以從
+>使用 jupyter notebook，需要GPU，可以從
 https://colab.research.google.com/drive/1thciKmFzbOffnqvBYot7poUptIBxVerN
+
+
+> 使用 python3 app.py，不需要GPU
 
 使用colab執行
 
