@@ -19,7 +19,7 @@ https://colab.research.google.com/drive/1thciKmFzbOffnqvBYot7poUptIBxVerN
 
 ## Step3
 使用正交化函式將數據正交化
-<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image1.png"/>
+
 ## Step4
 
 Convert a Time Series to a Supervised Learning Problem
@@ -53,3 +53,7 @@ Convert a Time Series to a Supervised Learning Problem
 將預測值存成 submission.csv
 
 <img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image2.png"/>
+
+# Result
+
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image3.png"/>
