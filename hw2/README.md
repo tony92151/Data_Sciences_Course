@@ -24,4 +24,6 @@ https://colab.research.google.com/drive/1tqt6_L9ztD7nWUa_RWYdZB3ZxI4SypdX
 ### Step6
 使用逆Feature Engineering，測試結果
 
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image4.png"/>
+
 
