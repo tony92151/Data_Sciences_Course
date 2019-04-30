@@ -10,13 +10,15 @@
 
 > dsai2.ipynb with features=300 EPOCH = 50
 > Accuracy : 17264/20000 = 86.32%
-https://colab.research.google.com/drive/1tqt6_L9ztD7nWUa_RWYdZB3ZxI4SypdX
-<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image4.png" align="right" width="360"/>
+> https://colab.research.google.com/drive/1tqt6_L9ztD7nWUa_RWYdZB3ZxI4SypdX
 
-> dsai2.ipynb with features=400 EPOCH = 100
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image4.png"  width="360"/>
+
+> dsai2_1.ipynb with features=400 EPOCH = 100
 > Accuracy : 78718/80000 = 98.3975%
-https://colab.research.google.com/drive/1Mb72zqgvNu14p7twfqow3gLtKNPYAu7H
-<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image5.png" align="right" width="360"/>
+> https://colab.research.google.com/drive/1Mb72zqgvNu14p7twfqow3gLtKNPYAu7H
+
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image5.png"  width="360"/>
 
 ## Adder & Subtractor Practice
 
