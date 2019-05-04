@@ -9,6 +9,10 @@ You are provided with daily historical sales data. The task is to forecast the t
 
 [kaggle](https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data)
 
+## Run
+
+> in [colab](https://colab.research.google.com/drive/16J31GTe0_lw1hq_llFPQxpsc0YIDm4OX)
+
 
 
 
