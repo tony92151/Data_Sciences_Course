@@ -1,25 +1,62 @@
-# DSAI HW1 Peak Load Forecasting
+# Data_Sciences_Course
 
-## Course info :
+# HW1
 
-> https://hackmd.io/APjYJ2KtQ6CPI0MMUyjmjA?view
-
-## 備轉容量
-
-在輸電網絡中，備轉容量或運轉儲備（operating reserve）是用來應付發電機故障、需求預測誤差和其他突發情況所預留的發電量。電力公司通常以最大發電機的發電量加上峰值負載的若干百分比作為運轉儲備的下限。
+>使用 jupyter notebook，需要GPU，可以從
+https://colab.research.google.com/drive/1thciKmFzbOffnqvBYot7poUptIBxVerN
 
 
-## 備轉容量率(Percent Operating Reserve)：
-係用來衡量每日供電可靠度之指標
-備轉容量率 ＝（系統運轉淨尖峰供電能力－系統瞬時尖峰負載(瞬間值)）÷系統瞬時尖峰負載(瞬間值)×100%。
-*系統運轉淨尖峰供電能力：扣除歲修(機組大修)、小修(機組檢修)及故障機組容量、火力機組環保限制、輔機故障、氣溫變化、水力考慮水位、水文、灌溉及溢流等。 
+> 使用 python3 app.py，不需要GPU
 
-## Reference
+使用colab執行
 
-[1]http://blog.alarmchang.com/?p=227
+資料集：僅使用[台灣電力公司_未來一週電力供需預測](https://data.gov.tw/dataset/33462)之 尖峰負載(MW) 作為資料集
 
-[2]https://www.taipower.com.tw/d006/loadGraph/loadGraph/load_reserve_.html
+ ## Step1
+ 將 2017/1/1 ~ 2019/2/28 的資料切成七份分別為週一到週日之資訊
 
-[3]https://opendata.cwb.gov.tw/dataset/climate/C-B0024-002
+## Step2
+將七份資訊去除異常部分，
+
+> 當 A[ i ]與 A[ i+1 ]相差大於4000，則A[ i+1 ] = ( A[ i ] + A[ i+1 ] ) / 2
+
+## Step3
+使用正交化函式將數據正交化
+
+## Step4
+
+Convert a Time Series to a Supervised Learning Problem
+
+將train_x 設為2組輸入，假如要預測今天(星期一)之資訊，輸入必須為上週星期一之用電量以及上上週星期一之用電量
+
+[Reference1](https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)
+​
+[Reference2](https://blog.csdn.net/baidu_36669549/article/details/85595807)
+​
+## Step5
+定義 LSTM 
+
+## Step6
+開始訓練，共七次，每次 10000 Epoch 
 
 
+## Step7
+定義 appendPrediction 函式用來將預測值加入原有數據，並可以重複迭代
+
+## Step8
+
+因數據末端到2019/2/28，所以估計append 10 週可以到4/8
+
+## Step9
+
+設 4/2~4/8 之 datetime 並使用 getPrediction 從預測值數列中找出預測值
+
+## Step10
+
+將預測值存成 submission.csv
+
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image2.png"/>
+
+# Result
+
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image3.png"/>
