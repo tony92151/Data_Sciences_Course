@@ -14,5 +14,6 @@ You are provided with daily historical sales data. The task is to forecast the t
 > in [colab](https://colab.research.google.com/drive/16J31GTe0_lw1hq_llFPQxpsc0YIDm4OX)
 
 
+## Result
 
-
+<img src="https://github.com/tony92151/Data_Sciences_Course/blob/master/image/image6.png"/>
