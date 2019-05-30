@@ -23,6 +23,10 @@ iMet Collection 2019競賽是2019年CVPR的FGVC6研討會的一部分，屬於�
 4. No custom packages 
 5. Submission file must be named "submission.csv"
 
+## read this kernal 
+
+[Resnet50_v2 keras + focal loss + mix_up](https://www.kaggle.com/mathormad/resnet50-v2-keras-focal-loss-mix-up)
+
 ## test1
 
 
